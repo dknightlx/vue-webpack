@@ -27,7 +27,13 @@ module.exports = {
         "camelcase": 1,
         "comma-dangle": [
             2,
-            "never"
+            {
+                "arrays": "never",
+                "objects": "ignore",
+                "imports": "ignore",
+                "exports": "ignore",
+                "functions": "ignore",
+            }
         ],
         "complexity": 0,
         "computed-property-spacing": 0,
